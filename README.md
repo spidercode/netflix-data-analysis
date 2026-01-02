@@ -8,7 +8,6 @@ The workflow follows **industry-standard AI/Data Engineering practices**, where:
 - Cleaned data is reused for visualization and analysis
 - Logic is separated across notebooks for clarity and reproducibility
 
----
 
 ## 🎯 Objectives
 - Analyze Netflix content released since 2000
@@ -16,9 +15,9 @@ The workflow follows **industry-standard AI/Data Engineering practices**, where:
 - Identify trends in content growth
 - Visualize insights using Python
 
----
 
 ## 📂 Project Structure
+```
 netflix-data-analysis/
 │
 ├── data/
@@ -32,6 +31,7 @@ netflix-data-analysis/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## 🧪 Dataset
 - **Source:** Kaggle – Netflix Movies and TV Shows
@@ -41,10 +41,9 @@ netflix-data-analysis/
 > **Note:**  
 > The raw dataset should be placed in `data/`.
 
----
+
 
 ## 🔄 Workflow
-
 ### 1️⃣ Exploratory Data Analysis (`01_eda.ipynb`)
 - Load raw dataset
 - Inspect data structure and quality
@@ -61,14 +60,12 @@ netflix-data-analysis/
 - Distribution analysis
 - Draw insights without modifying data
 
----
 
 ## 📊 Sample Insights
 - Netflix content production increased significantly after 2015
 - Movies consistently outnumber TV shows
 - Strong growth trend in both content types since 2000
 
----
 
 ## 🛠️ Technologies Used
 - Python
@@ -78,7 +75,6 @@ netflix-data-analysis/
 - Jupyter Notebook
 - VS Code
 
----
 
 ## ▶️ How to Run the Project
 
